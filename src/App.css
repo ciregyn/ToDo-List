@@ -1,0 +1,123 @@
+body{
+  font-family: Arial, bold;
+  background: #f0f0f0;
+  padding: 30px;
+  color: rgb(61, 5, 216);
+  background-image: url('./img/bpm.jpg');
+  background-position: center;
+  background-size: 350vh;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background: rgb(189, 186, 186);
+  padding: 20px 30px;
+  border-radius: 10px;
+  }
+
+h1{
+  text-align: center;
+}
+
+h2{
+
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button{
+  background: rgb(61, 61, 75);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  opacity: 1;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #575757;
+}
+
+.todo{
+  background-color: #f8f6f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.complete{
+  background: green;
+}
+
+.remove{
+  background: rgb(201, 3, 3);
+}
+
+.add{
+  background: blue;
+}
+
+.todo-form{
+ padding-bottom: 1.5rem;
+}
+
+input, select{
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.filter, .search{
+  border-bottom: 1px solid #575757;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+}
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+    gap: 3rem;
+}
+
+
+.filter-options div{
+  flex: 1 1 0;
+  
+}
+
+@media (max-width: 600px){
+  .todo{
+    display: block;
+  }
+
+  .filter-options{
+    display: block;
+  }
+
+  .input, select{
+    width:85%
+  }
+}
