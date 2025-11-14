@@ -67,7 +67,7 @@ http://localhost:5173
 
 
 ##  Confira no link:
--  https://ciregyn.github.io/ToDo-List/
+-  https://6917aa37872fbc3359a26a45--delicate-cucurucho-47b81d.netlify.app/
 
 
 
